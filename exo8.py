@@ -21,27 +21,29 @@ coordinates2=[]
 
 
 ordinates = []
-##Affichage des ordonnées de notre tuple
-for i in coordinates:
-    print (i[1])
-    ordinates.append(i[1])
-print(ordinates) 
-dict_coordinates={}
-for i in coordinates:
-    keys=i[0]
-    values=i[1]
-    dict_coordinates[key]=value
-print(dict_coordinates)
+#Affichage des ordonnées de notre tuple
+#for i in coordinates:
+    #print (i[1])
+   # ordinates.append(i[1])
+#print(ordinates) 
+#dict_coordinates={}
+#for i in coordinates:
+    #keys=i[0]
+    #values=i[1]
+    #dict_coordinates[key]=value
+#print(dict_coordinates)
 ##Avec la boucle while
 #i=0
 #tple=[]
-#while i<len(coordinates):
-   # tple=coordinates[i]
-    #key=tple[0]
-    #value=tple[1]
-    #dict_coordinates[key]=value
-    #i=i+1
-#print(dict_coordinates)
+i=0
+dict_coordinates={}
+while i<len(coordinates):
+    tple=coordinates[i]
+    key=tple[0]
+    value=tple[1]
+    dict_coordinates[key]=value
+    i=i+1
+print(dict_coordinates)
 
 
 
