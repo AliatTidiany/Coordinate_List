@@ -17,32 +17,21 @@ coordinates2=[]
     #i=i+1
 #print(coordinates2)
 #avec la boucle for
-for i in coordinates:
-    y=i[1]
-    x=i[0]
-    if y>7:
-        nouveau_point=(x,7)
-    
-    else:
-        nouveau_point=(x,y)
-    coordinates2.append(nouveau_point)
-print(coordinates2)
-
 
 
 
 ordinates = []
 ##Affichage des ordonnées de notre tuple
-#for i in coordinates:
-    #print (i[1])
-   # ordinates.append(i[1])
-#print(ordinates) 
-#dict_coordinates={}
-#for i in coordinates:
-    #keys=i[0]
-    #values=i[1]
-    #dict_coordinates[values]=keys
-#print(dict_coordinates)
+for i in coordinates:
+    print (i[1])
+    ordinates.append(i[1])
+print(ordinates) 
+dict_coordinates={}
+for i in coordinates:
+    keys=i[0]
+    values=i[1]
+    dict_coordinates[key]=value
+print(dict_coordinates)
 ##Avec la boucle while
 #i=0
 #tple=[]
