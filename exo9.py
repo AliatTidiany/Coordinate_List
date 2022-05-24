@@ -12,7 +12,15 @@ print(liste_mots)
 #- comme valeurs, le nombre d'occurence de chaque mot
 #Vous proposerez deux manières de faire.
 dict_mots={}
-for i in liste_mots:
+#for i in liste_mots:
+ #   if i not in dict_mots.keys():
+  #      dict_mots[i]=1
+   # else:
+    #    dict_mots[i] +=1
+#print(dict_mots)
+###Avec la boucle while 
+i=0
+while i<=len(liste_mots):
     if i not in dict_mots.keys():
         dict_mots[i]=1
     else:
