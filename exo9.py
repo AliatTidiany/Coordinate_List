@@ -18,3 +18,4 @@ for i in liste_mots:
     else:
         dict_mots[i] +=1
 print(dict_mots)
+
